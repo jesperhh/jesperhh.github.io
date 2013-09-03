@@ -1,0 +1,9 @@
+name: OKTET.NET
+url: http://oktet.net
+description: A collection of random things
+
+permalink: /:year/:month/:day/:title/
+paginate: 10
+pygments: true
+
+exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'Rakefile']
