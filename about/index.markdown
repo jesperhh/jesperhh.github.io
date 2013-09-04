@@ -3,9 +3,18 @@ layout: default
 title: About
 ---
 
-This is where you would but a short bio, and/or a description of your site. It also serves as an example of how to set up a standalone page. For example:
+<img src="/images/jesper.jpg" class="right" style="width:140px" />
+This is the homepage of Jesper Hellesø Hansen, a twenty-something software developer from Copenhagen, Denmark. 
 
-<img src="/images/shakespeare.png" class="right" />
-**William Shakespeare** (26 April 1564 – 23 April 1616) was an English poet and playwright, widely regarded as the greatest writer in the English language and the world's pre-eminent dramatist. He is often called England's national poet and the "Bard of Avon". His extant works, including some collaborations, consist of about 38 plays, 154 sonnets, two long narrative poems, and a few other verses, the authorship of some of which is uncertain. His plays have been translated into every major living language and are performed more often than those of any other playwright.
+I am currently employed at [BK Medical][], where I write software for ultrasound scanners. While I studied for my degree Computer Science and Technology at the Technical University of Denmark, I worked at [Radiometer Medical][], making web applications for internal use.
 
-Shakespeare was born and brought up in Stratford-upon-Avon. At the age of 18, he married Anne Hathaway—no, not *that* Anne Hathaway—with whom he had three children.
+In my spare time, I enjoy riding and tinkering with bicycles. Even though I now work with software development, I also still spend far too much time in front of a computer at home,  programming, reading [reddit][] and [Hacker News][], and playing games.
+
+For more information, see [LinkedIn][] or [Facebook][]
+
+[BK Medical]: http://www.bkmed.com/
+[Radiometer Medical]: http://www.radiometer.dk/
+[reddit]: http://reddit.com
+[Hacker News]: http://news.ycombinator
+[LinkedIn]: http://dk.linkedin.com/in/jesperhh/
+[Facebook]: https://www.facebook.com/jesperhh
