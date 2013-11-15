@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <SnippetTypes>
+        <SnippetType>Expansion</SnippetType>
+      </SnippetTypes>
+      <Title>QObject</Title>
+      <Author>Jesper Hellesø Hansen</Author>
+      <Description>QObject snippet</Description>
+      <HelpUrl>
+      </HelpUrl>
+      <Shortcut>qobject</Shortcut>
+    </Header>
+    <Snippet>
+      <Declarations>
+        <Literal Editable="true">
+          <ID>ClassName</ID>
+          <ToolTip>ClassName</ToolTip>
+          <Default>ClassName</Default>
+          <Function>
+          </Function>
+        </Literal>
+        <Literal Editable="true">
+          <ID>INCLUDE_GUARD</ID>
+          <ToolTip>Include guard</ToolTip>
+          <Default>CLASSNAME_H</Default>
+          <Function>
+          </Function>
+        </Literal>
+      </Declarations>
+      <Code Language="cpp"><![CDATA[#ifndef $INCLUDE_GUARD$
+#define $INCLUDE_GUARD$
+
+#include <QObject>
+
+class $ClassName$ : public QObject
+{
+    Q_OBJECT
+
+    public:
+        explicit $ClassName$(QObject *parent = 0);
+        ~$ClassName$();
+
+    signals:
+
+    public slots:
+    
+};
+
+#endif // $INCLUDE_GUARD$
+]]></Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>
