@@ -21,7 +21,9 @@ The second issue is quite tricky on the other hand. On Linux, you can use [Solaa
 
 Luckily, the protocol used by the K760 is the same as the one used on the K750. The protocol is called HID++ 2.0, and *some* [documentation][HID++2] is available. Through a combination of looking at the Solaar source, and HID++ documentation, I managed to throw together an application that can toggle between F1-12-keys on by default, or function keys on by default. Currently, it is just a command-line application.
 
-Source for the application can be found on [Github][WinK760]
+Source for the application can be found on [Github][WinK760].
+
+**Update:** By request, [a pre-built version of the application]({{ site.url }}/files/WinK760.exe).
 
 [WinK760]: https://github.com/jesperhh/WinK760
 [SharpKeys]: http://sharpkeys.codeplex.com/
