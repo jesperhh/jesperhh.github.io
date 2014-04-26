@@ -10,6 +10,7 @@ categories: development
 The K760 is a very nice keyboard made by Logitech. It is clear from the styling, keyboard layout and full name (... for Mac/iPad/iPhone) that it is not made for Windows use, but as it is a standard Bluetooth keyboard it will work *almost* perfectly with any operating system.
 
 There are two fixable issues:
+
 * On the Danish keyboard layout at least, the key between the left shift, and z key is swapped with the key above the tab key.
 * The Logitech SetPoint software for Windows does not recognize the keyboard, and it is therefore not possible to read battery status and, more importantly, change how the F-keys function.
 
