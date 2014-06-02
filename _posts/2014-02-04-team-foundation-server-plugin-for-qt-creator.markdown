@@ -6,6 +6,7 @@ categories: development
 ---
 
 **Update:** A new build for Qt Creator 3.1 has been added.
+
 **Update 2:** A bug has been fixed that prevented check out from working correctly.
 
 A few days ago I published my first contribution to an open source project. I chose to make a TFS plugin for Qt Creator, which did not exist, and seemed straight forward to implement, as the command line client for TFS (TF.exe) already implements a lot of the UI needed (check-in dialog, diff, annotate via Team Foundation Power Tools). This has the downside that it does not feel as integrated as other VCS plugins for Qt Creator, but it makes the plugin a lot simpler.
