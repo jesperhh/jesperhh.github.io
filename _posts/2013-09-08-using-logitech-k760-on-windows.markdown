@@ -5,6 +5,8 @@ date:   2013-09-15 19:40:00
 categories: development
 ---
 
+**Update:** The application has been converted into a tray application that continously monitors for connect/disconnect signals, and reapplies the fix. Previously, if the keyboard went into stand-by, the application had to be started again to re-fix the F-keys. A new feature has also been added that remaps the previously non-functional eject key to F13. You can then use SharpKeys or similar to remap this key to what you want. [Download]({{ site.url }}/files/WinK760.exe) and replace the executable to try it out.
+
 <img src="/images/k760.png" class="center" />
 
 The K760 is a very nice keyboard made by Logitech. It is clear from the styling, keyboard layout and full name (... for Mac/iPad/iPhone) that it is not made for Windows use, but as it is a standard Bluetooth keyboard it will work *almost* perfectly with any operating system.
@@ -20,7 +22,7 @@ The first issue is easily solved using keyboard re-mapping software - I personal
 
 The second issue is quite tricky on the other hand. On Linux, you can use [Solaar][] for most Logitech products, but from looking at the code, it looks like it is Linux only, and only for Logitech devices using the Logitech Unifying Receiver (ie. *not* bluetooth).
 
-Luckily, the protocol used by the K760 is the same as the one used on the K750. The protocol is called HID++ 2.0, and *some* [documentation][HID++2] is available. Through a combination of looking at the Solaar source, and HID++ documentation, I managed to throw together an application that can toggle between F1-12-keys on by default, or function keys on by default. Currently, it is just a command-line application.
+Luckily, the protocol used by the K760 is the same as the one used on the K750. The protocol is called HID++ 2.0, and *some* [documentation][HID++2] is available. Through a combination of looking at the Solaar source, and HID++ documentation, I managed to throw together an application that can toggle between F1-12-keys on by default, or function keys on by default.
 
 Source for the application can be found on [Github][WinK760].
 
