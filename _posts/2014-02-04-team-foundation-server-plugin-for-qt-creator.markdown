@@ -5,7 +5,7 @@ date:   2014-02-04 21:15:00
 categories: development
 ---
 
-**Update:** A new build for Qt Creator 3.2 has been added - [download]({{ site.url }}/files/teamfoundation320.zip).
+**Update:** A new build for Qt Creator 3.2 has been added - [download]({{ site.url }}/files/TeamFoundation320.zip).
 
 **Update:** A new build for Qt Creator 3.1 has been added.
 
