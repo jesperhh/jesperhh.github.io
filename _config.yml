@@ -5,7 +5,16 @@ description: A collection of random things
 markdown: kramdown
 
 permalink: /:year/:month/:day/:title/
-paginate: 10
-pygments: true
+paginate: 5
+highlighter: rouge
+
+timezone: Europe/Copenhagen
 
 exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'Rakefile']
+
+pages_list:
+  Home: '/'
+  Projects: '/projects'
+  Archive: '/archives'
+  About: '/about'
+  Contact: 'mailto:web@oktet.net'

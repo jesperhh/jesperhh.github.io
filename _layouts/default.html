@@ -34,10 +34,9 @@
     <div id="sidebar">
       <nav>
         <ul>
-          <li><a href="/">Home</a></li>
-          <li><a href="/archives">Archive</a></li>
-          <li><a href="/about">About</a></li>
-		  <li><a href="mailto:web@oktet.net">Contact</a></li>
+          {% for page in site.pages_list %}
+          <li><a href="{{ page[1] }}">{{ page[0] }}</a></li>
+          {% endfor %}
         </ul>
       </nav>
     </div>

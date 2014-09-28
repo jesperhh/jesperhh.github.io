@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Using the Logitech K760 Wireless Solar Keyboard on Windows"
-date:   2013-09-15 19:40:00
+date:   2013-09-08 19:40:00
 categories: development
 ---
 

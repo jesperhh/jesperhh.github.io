@@ -48,7 +48,7 @@ a:hover {
 }
 
 p { margin-bottom: 15px; }
-ul, ol { padding: 0 0 18px 30px; }
+ul, ol { padding: 0 0 0 30px; }
 ol li, ul li { margin-top: 10px; margin-bottom: 10px; }
 em, i { font-style: italic; }
 strong, b { font-weight: bold; }
@@ -109,13 +109,13 @@ h3 {
 
 /*** Structure ***/
 #page {
-	width: 500px;
+	width: 650px;
 	margin: 0 auto;
 	position: relative;
 }
 
 #header {
-	width: 500px;
+	width: 650px;
 	margin: 40px auto 50px auto;
 }
 #header h1 {
@@ -127,7 +127,7 @@ h3 {
 }
 
 #footer {
-	width: 500px;
+	width: 650px;
 	margin: 50px auto 20px auto;
 	padding-top: 10px;
 	font-size: 0.85em;
@@ -135,7 +135,7 @@ h3 {
 }
 
 #content {
-	width: 500px;
+	width: 650px;
 	margin: 0 auto;
 }
 
@@ -144,7 +144,7 @@ h3 {
 	text-align: right;
 	width: 160px;
 	top: 0;
-	left: -240px;
+	left: -180px;
 }
 
 #sidebar li {
