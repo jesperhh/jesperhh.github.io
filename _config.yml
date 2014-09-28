@@ -6,7 +6,7 @@ markdown: kramdown
 
 permalink: /:year/:month/:day/:title/
 paginate: 5
-highlighter: rouge
+highlighter: pygments
 
 timezone: Europe/Copenhagen
 
