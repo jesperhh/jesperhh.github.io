@@ -10,11 +10,12 @@ A list of projects I have put online:
 * Team Foundation plugin for Qt Creator
   - [Blog post]({% post_url 2014-02-04-team-foundation-server-plugin-for-qt-creator %}) and [Github Page][TeamFoundation]
 * Qml Test Adapter for Visual Studio
-  - [Blog post]({% post_url 2014-10-26-qml-test-adapter-for-visual-studio %}) and [Github Page][TeamFoundation]
+  - [Blog post]({% post_url 2014-10-26-qml-test-adapter-for-visual-studio %}) and [Github Page][QmlTestAdapter]
 * Silent PC Build
   - [Blog post]({% post_url 2014-09-28-silent-pc-build %})
 * Bikes
   - Soon to come ...
 
  [WinK760]: https://github.com/jesperhh/WinK760
- [TeamFoundation]: https://github.com/jesperhh/QmlTestAdapter
+ [TeamFoundation]: https://github.com/jesperhh/teamfoundation
+ [QmlTestAdapter]: https://github.com/jesperhh/QmlTestAdapter
