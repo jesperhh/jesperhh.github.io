@@ -5,7 +5,7 @@ date:   2013-09-08 19:40:00
 categories: development
 ---
 
-**Update:** The application has been converted into a tray application that continously monitors for connect/disconnect signals, and reapplies the fix. Previously, if the keyboard went into stand-by, the application had to be started again to re-fix the F-keys. A new feature has also been added that remaps the previously non-functional eject key to F13. You can then use SharpKeys or similar to remap this key to what you want. [Download]({{ site.url }}/files/WinK760.exe) and replace the executable to try it out.
+**Update:** The application has been converted into a tray application that continously monitors for connect/disconnect signals, and reapplies the fix. Previously, if the keyboard went into stand-by, the application had to be started again to re-fix the F-keys. A new feature has also been added that remaps the previously non-functional eject key to F13. You can then use SharpKeys or similar to remap this key to what you want. [Download](https://github.com/jesperhh/WinK760/releases) and replace the executable to try it out.
 
 <img src="/images/k760.png" class="center" />
 
@@ -26,7 +26,7 @@ Luckily, the protocol used by the K760 is the same as the one used on the K750. 
 
 Source for the application can be found on [Github][WinK760].
 
-**Update:** By request, [a pre-built version of the application]({{ site.url }}/files/WinK760.exe).
+**Update:** By request, a [pre-built version of the application](https://github.com/jesperhh/WinK760/releases).
 
 [WinK760]: https://github.com/jesperhh/WinK760
 [SharpKeys]: http://sharpkeys.codeplex.com/
