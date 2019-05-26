@@ -1,12 +1,12 @@
 name: OKTET.NET
-url: http://www.oktet.net
+url: https://www.oktet.net
 description: A collection of random things
 
 markdown: kramdown
 
 permalink: /:year/:month/:day/:title/
 paginate: 5
-highlighter: pygments
+highlighter: rouge
 
 timezone: Europe/Copenhagen
 
